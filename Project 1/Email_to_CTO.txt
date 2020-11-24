@@ -1,0 +1,27 @@
+Greetings CTO,
+
+I am pleased to inform that your Hyperconverged solution has been created.
+
+The following are features created for your unique configuration:
+
+1. Three-tier application stack with a database server VM, application server VM,
+and web server VM on each respective "production" and "development" networks. 
+- application and web server VMs were configured with 1 vCPU and 4 GB of RAM
+- database VMs were configured with 2 vCPU and 2 GB RAM
+
+3. Protection of the Production VMs was set to copy an image every hour
+
+3. Storage container called "Images" created for Windows and CentOS (Linux) Image 
+Services. The following are the VM Names:
+
+app-prod
+web-prod
+app-dev
+db-dev
+web-dev
+Nutanix-Clone-db-prod (this was a back-up verification test ouput of item number 2 above.
+
+For any further questiona or technical specifications, please see attached excel and docx.
+
+Thank you,
+Jhonatan M. Nagasako
